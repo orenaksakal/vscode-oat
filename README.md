@@ -4,7 +4,7 @@ Auto tranform object access to safer (nullable) object access. e.g. && chain".
 
 ## Example
 
-\!\[Functionality\]\(images/vscode-oat.gif\)
+![Functionality](images/vscode-oat.gif)
 
 ## Extension Settings
 
