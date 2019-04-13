@@ -8,7 +8,12 @@ Auto tranform object access to safer (nullable) object access. e.g. && chain".
 
 ## Extension Settings
 
-Multiple tranform to options coming soon. only && chain at by 1.0.0
+Multiple tranform to options coming soon. only && chain available by 1.0.0
+
+Possible options:
+- Ternary
+- Elvis like
+- try catch
 
 ## Known Issues
 
