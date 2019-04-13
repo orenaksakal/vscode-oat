@@ -12,7 +12,7 @@
     "engines": {
         "vscode": "^1.33.0"
     },
-    "icon": "images/safe.png",
+    "icon": "images/icon.png",
     "bugs": {
         "url": "https://github.com/orenaksakal/vscode-oat/issues",
         "email": "orenaksakal@gmail.com"
