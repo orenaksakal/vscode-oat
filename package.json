@@ -1,7 +1,7 @@
 {
     "name": "vscode-oat",
     "displayName": "vscode-oat",
-    "description": "Extension to auto convert object access to safe object access. (&& chain)",
+    "description": "Extension to auto tranform object access to safer (nullable) object access. e.g. && chain",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.33.0"
@@ -32,7 +32,7 @@
         "commands": [
             {
                 "command": "vscode-oat.transformToAndChain",
-                "title": "Transform to Safe Access"
+                "title": "Transform to && chain"
             }
         ]
     },

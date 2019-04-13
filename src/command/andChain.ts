@@ -9,7 +9,7 @@ function transformToAndChain(diagnosticCollection: vscode.DiagnosticCollection) 
             const editor = vscode.window.activeTextEditor;
             if (!editor) {
                 vscode.window.showWarningMessage(
-                    'You can only use extension within a document'
+                    'You can only use vscode-oat within a document'
                 );
                 return;
             }
