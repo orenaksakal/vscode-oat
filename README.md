@@ -1,6 +1,6 @@
 # vscode-oat
 
-Auto transformation from object accesses to safer (nullable) object accesses. e.g. && chain.
+Auto transformation from object attribute accesses to exception free nullable object attribute accesses. e.g. && chain.
 
 ## Example
 
