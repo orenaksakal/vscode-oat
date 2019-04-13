@@ -2,9 +2,9 @@
     "name": "vscode-oat",
     "displayName": "vscode-oat",
     "description": "Extension to auto tranform object access to safer (nullable) object access. e.g. && chain",
-    "version": "0.0.1",
-    "publisher":"orenaksakal",
-    "license":"MIT",
+    "version": "0.1.0",
+    "publisher": "orenaksakal",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/orenaksakal/vscode-oat.git"
@@ -27,11 +27,11 @@
         "onLanguage:typescript",
         "onLanguage:typescriptreact",
         "onLanguage:vue",
-		"onLanguage:vue-html",
-		"onLanguage:html"
+        "onLanguage:vue-html",
+        "onLanguage:html"
     ],
     "main": "./out/extension.js",
-	"contributes": {
+    "contributes": {
         "menus": {
             "editor/context": [
                 {
