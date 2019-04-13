@@ -3,9 +3,21 @@
     "displayName": "vscode-oat",
     "description": "Extension to auto tranform object access to safer (nullable) object access. e.g. && chain",
     "version": "0.0.1",
+    "publisher":"orenaksakal",
+    "license":"MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/orenaksakal/vscode-oat.git"
+    },
     "engines": {
         "vscode": "^1.33.0"
     },
+    "icon": "images/safe.png",
+    "bugs": {
+        "url": "https://github.com/orenaksakal/vscode-oat/issues",
+        "email": "orenaksakal@gmail.com"
+    },
+    "homepage": "https://github.com/orenaksakal/vscode-oat/blob/master/README.md",
     "categories": [
         "Formatters"
     ],
