@@ -1,6 +1,6 @@
 # vscode-oat
 
-Auto tranform object access to safer (nullable) object access. e.g. && chain.
+Auto transformation from object accesses to safer (nullable) object accesses. e.g. && chain.
 
 ## Example
 
@@ -8,17 +8,12 @@ Auto tranform object access to safer (nullable) object access. e.g. && chain.
 
 ## Extension Settings
 
-Multiple tranform to options coming soon. Only && chain is available by 1.0.0
-as it seems to be most optimal solution for now https://jsperf.com/nullableobjectpropertiesaccessor
+Only && chain is available by 1.0.0 as it seems to be most optimal solution https://jsperf.com/nullableobjectpropertiesaccessor
 
-Possible options:
+Possible additional options:
 - Ternary operator
 - Elvis like
 - try catch
-
-## Known Issues
-
-None
 
 ## Release Notes
 

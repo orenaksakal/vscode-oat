@@ -1,7 +1,7 @@
 {
     "name": "vscode-oat",
     "displayName": "vscode-oat",
-    "description": "Extension to auto tranform object access to safer (nullable) object access. e.g. && chain",
+    "description": "Auto transformation from object accesses to safer (nullable) object accesses. e.g. && chain.",
     "version": "0.1.0",
     "publisher": "orenaksakal",
     "license": "MIT",
