@@ -14,12 +14,10 @@ function transformToAndChain(diagnosticCollection: vscode.DiagnosticCollection) 
                 return;
             }
             const selection = editor.selection;
-
             const selectedRange = new vscode.Range(
                 selection.start,
                 selection.end
             );
-
             const str = editor.document.getText(selectedRange);
 
             function parse(text: String) {
@@ -33,19 +31,13 @@ function transformToAndChain(diagnosticCollection: vscode.DiagnosticCollection) 
                     }
                 });
 
-                return container
-                    .filter(el => {
-                        return el.slice(-1) !== '.';
-                    })
-                    .join(' && ');
+                return container.filter(el => el.slice(-1) !== '.').join(' && ');
             }
 
             try {
                 const result = parse(str);
                 editor
-                    .edit((editBuilder: vscode.TextEditorEdit) => {
-                        editBuilder.replace(selection, result);
-                    })
+                    .edit((editBuilder: vscode.TextEditorEdit) => editBuilder.replace(selection, result))
                     .then(() => editor.document.save());
             } catch (error) {
                 const diagnostic = new vscode.Diagnostic(
