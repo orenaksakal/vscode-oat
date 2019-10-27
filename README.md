@@ -1,6 +1,6 @@
 # vscode-oat
 
-Auto transformation from object attribute accesses to exception free nullable object attribute accesses. e.g. && chain.
+Auto transformation between unsafe attribute accesses to exception free nullable accesses. E.g. && chain.
 
 ## Example
 
@@ -8,9 +8,9 @@ Auto transformation from object attribute accesses to exception free nullable ob
 
 ## Extension Settings
 
-Only && chain is available by 1.0.0 as it seems to be most optimal solution https://jsperf.com/nullableobjectpropertiesaccessor
+Only and chain (&&) available at the moment as it seems to be most optimal solution https://jsperf.com/nullableobjectpropertiesaccessor
 
-Possible additional options:
+Future options:
 - Ternary operator
 - Elvis like
 - try catch
