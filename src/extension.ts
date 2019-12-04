@@ -7,7 +7,6 @@ import transformToAndChain from './command/andChain';
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
-    console.log('Congratulations, your extension "es6 template literals transformer" is now active!');
     const diagnosticCollection = vscode.languages.createDiagnosticCollection('vscode-oat');
     context.subscriptions.push(transformToAndChain(diagnosticCollection));
 }
